@@ -212,6 +212,13 @@ if command -v fzf >/dev/null 2>&1; then
     source <(fzf --zsh)
 fi
 
+# fzf-git.sh
+# Check if the script exsts before sourcing
+FZF_GIT_DIR="$HOME/.zsh/fzf-git.sh"
+if [[ -f "$FZF_GIT_DIR/fzf-git.sh" ]]; then
+    source "$FZF_GIT_DIR/fzf-git.sh"
+fi
+
 
 # --- Custom Functions ---
 
