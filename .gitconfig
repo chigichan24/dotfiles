@@ -1,0 +1,11 @@
+[ghq]
+	root = ~/src
+[alias]
+	cb = checkout -b
+	ss = status
+	cm = commit -m
+	c = switch -c
+	cp = cherry-pick
+[user]
+	email = kazuki.chigichan@gmail.com
+	name = Kazuki Chigita
