@@ -6,6 +6,7 @@
 	cm = commit -m
 	c = switch -c
 	cp = cherry-pick
+	l = log --pretty=format:\"%C(yellow)%h %C(auto)%s [%C(reset)%an] %x09%C(blue)%D %C(green)(%ad)\"
 [user]
 	email = kazuki.chigichan@gmail.com
 	name = Kazuki Chigita
