@@ -2,7 +2,7 @@
 	root = ~/src
 [alias]
 	cb = checkout -b
-	ss = status
+	ss = fuzzy status
 	cm = commit -m
 	c = switch -c
 	cp = cherry-pick
