@@ -43,6 +43,9 @@ export PATH
 # Set GPG TTY
 export GPG_TTY=$(tty)
 
+# Set JAVA_HOME
+export JAVA_HOME=$HOME/Applications/"Android Studio.app"/Contents/jbr/Contents/Home
+
 # Set Linker Flags for OpenSSL (macOS specific example, adjust if needed)
 [[ -d "/usr/local/opt/openssl@1.1/lib" ]] && export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
 
