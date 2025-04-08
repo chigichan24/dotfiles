@@ -35,6 +35,8 @@ PATH="$GOPATH/bin:$PATH" # Assuming go binaries are in $GOPATH/bin
 [[ -d "/usr/local/opt/openssl@1.1/bin" ]] && PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 # Add Konryu (custom tool example)
 [[ -d "$HOME/.konryu/bin" ]] && PATH="$PATH:$HOME/.konryu/bin"
+# Add git-fuzzy
+[[ -d "$HOME/.zsh/git-fuzzy/bin" ]] && PATH="$PATH:$HOME/.zsh/git-fuzzy/bin"
 # Export the final PATH
 export PATH
 
