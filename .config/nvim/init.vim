@@ -4,6 +4,10 @@ call plug#begin()
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'lewis6991/gitsigns.nvim'
+Plug 'sheerun/vim-polyglot'
+Plug 'hynek/vim-python-pep8-indent'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc-git'
 
 call plug#end()
 
