@@ -16,6 +16,8 @@ export XDG_CONFIG_HOME="$HOME/.config"
 # Start with the system default PATH
 # Add standard user binary locations
 PATH="/usr/local/bin:$PATH"
+# Add standard $HOME local user binary locations
+PATH="$HOME/.local/bin:$PATH"
 # Add Node.js (via nodebrew)
 PATH="$HOME/.nodebrew/current/bin:$PATH"
 # Add Python (via pyenv) - Note: pyenv init below also modifies PATH
